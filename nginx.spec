@@ -8,7 +8,7 @@
 
 %global with_aio 1
 %global with_headers_more 1
-%global headers_more_version 0.32
+%global headers_more_version 0.33
 
 %if 0%{?fedora} > 22
 %global with_mailcap_mimetypes 1
@@ -479,6 +479,10 @@ fi
 
 
 %changelog
+* Wed Mar 28 2018 Joseph Tate <joseph@crunch.io> - 11:1.12.2-2.1crunch
+- merge in changes from upstream
+- update headers-more module version to 0.33
+
 * Tue Mar 6 2018 Tadej Janež <tadej.j@nez.si> - 1:1.12.2-2
 - enable building the ngx_http_auth_request_module module (RHBZ #1471107)
 
