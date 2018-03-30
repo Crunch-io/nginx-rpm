@@ -17,7 +17,7 @@
 Name:              nginx
 Epoch:             1
 Version:           1.12.2
-Release:           2%{?dist}
+Release:           3%{?dist}
 
 Summary:           A high performance web server and reverse proxy server
 Group:             System Environment/Daemons
@@ -479,7 +479,7 @@ fi
 
 
 %changelog
-* Wed Mar 28 2018 Joseph Tate <joseph@crunch.io> - 11:1.12.2-2.1crunch
+* Wed Mar 28 2018 Joseph Tate <joseph@crunch.io> - 11:1.12.2-3
 - merge in changes from upstream
 - update headers-more module version to 0.33
 
