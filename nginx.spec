@@ -15,7 +15,7 @@
 %endif
 
 Name:              nginx
-Epoch:             11
+Epoch:             1
 Version:           1.12.2
 Release:           2%{?dist}
 
