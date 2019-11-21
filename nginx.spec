@@ -597,6 +597,13 @@ fi
 * Wed May 02 2018 Luboš Uhliarik <luhliari@redhat.com> - 1:1.12.1-7
 - Resolves: #1573942 - nginx fails on start
 
+* Wed Mar 28 2018 Joseph Tate <joseph@crunch.io> - 11:1.12.2-3
+- merge in changes from upstream
+- update headers-more module version to 0.33
+
+* Tue Mar 6 2018 Tadej Janež <tadej.j@nez.si> - 1:1.12.2-2
+- enable building the ngx_http_auth_request_module module (RHBZ #1471107)
+
 * Thu Feb 08 2018 Fedora Release Engineering <releng@fedoraproject.org> - 1:1.12.1-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
 
@@ -626,22 +633,15 @@ fi
 * Sun Jun 04 2017 Jitka Plesnikova <jplesnik@redhat.com> - 1:1.12.0-2
 - Perl 5.26 rebuild
 
-* Wed Mar 28 2018 Joseph Tate <joseph@crunch.io> - 11:1.12.2-3
-- merge in changes from upstream
-- update headers-more module version to 0.33
-
-* Tue Mar 6 2018 Tadej Janež <tadej.j@nez.si> - 1:1.12.2-2
-- enable building the ngx_http_auth_request_module module (RHBZ #1471107)
-
 * Tue May 30 2017 Luboš Uhliarik <luhliari@redhat.com> - 1:1.12.0-1
 - new version 1.12.0
-
-* Wed Feb  8 2017 Joe Orton <jorton@redhat.com> - 1:1.10.3-1
-- update to upstream release 1.10.3
 
 * Thu Mar 30 2017 Joseph Tate <joseph@crunch.io> - 1:1.10.3-1
 - update to upstream release 1.10.3
 - build and package headers-more module
+
+* Wed Feb  8 2017 Joe Orton <jorton@redhat.com> - 1:1.10.3-1
+- update to upstream release 1.10.3
 
 * Mon Oct 31 2016 Jamie Nguyen <jamielinux@fedoraproject.org> - 1:1.10.2-1
 - update to upstream release 1.10.2
